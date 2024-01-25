@@ -27,7 +27,7 @@ void diceRoll(int dice[])
 
     for (int i = 0; i < 4; i++)
     {
-        dice[i] = rand() % 6 + 1;
+        dice[i] = rand() % 1 + 1;
     }
     cout << "Dice 1: " << dice[0] << endl;
     cout << "Dice 2: " << dice[1] << endl << endl;
@@ -57,7 +57,11 @@ int payout(int& gold, int dice[], int stakes)
     else if (dice[0] && dice[1] == 1)
     {
         stakes *= 3;
-        cout << "Snake Eyes!! You win:  " << endl << endl;
+        cout << "Snake Eyes!! You win:  " << stakes << endl << endl;
+        system("pause");
+        system("CLS");
+
+        gold += stakes;
     }
     else if (dice[0]+dice[1]<dice[2]+dice[3])
     {
