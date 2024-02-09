@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 1\Quiz 1\Source.cpp(65,20): warning C4018: '<': signed/unsigned mismatch
+D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 1\Quiz 1\Source.cpp(101,27): warning C4018: '>': signed/unsigned mismatch
+D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 1\Quiz 1\Source.cpp(213,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Quiz 1.vcxproj -> D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 1\Debug\Quiz 1.exe
