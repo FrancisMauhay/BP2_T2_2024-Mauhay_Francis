@@ -1,3 +1,5 @@
 ﻿  Source.cpp
-D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Exercises\Exercise 3\Exercise 3\Source.cpp(10,2): warning C4094: untagged 'struct' declared no symbols
+D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Exercises\Exercise 3\Exercise 3\Source.cpp(65,3): warning C4551: function call missing argument list
+D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Exercises\Exercise 3\Exercise 3\Source.cpp(72,3): warning C4551: function call missing argument list
+D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Exercises\Exercise 3\Exercise 3\Source.cpp(128,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Exercise 3.vcxproj -> D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Exercises\Exercise 3\Debug\Exercise 3.exe
