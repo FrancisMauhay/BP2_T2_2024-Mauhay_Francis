@@ -1,0 +1,3 @@
+﻿  Spell.cpp
+D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Exercises\Exercise 4\Exercise 4\Spell.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Exercise 4.vcxproj -> D:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Exercises\Exercise 4\Debug\Exercise 4.exe
