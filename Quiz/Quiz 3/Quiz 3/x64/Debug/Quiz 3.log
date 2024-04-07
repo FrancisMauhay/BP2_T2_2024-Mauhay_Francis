@@ -1,2 +1,8 @@
-﻿  Source.cpp
+﻿  Enemy.cpp
+G:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 3\Quiz 3\Enemy.cpp(19,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+G:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 3\Quiz 3\Enemy.cpp(30,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+G:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 3\Quiz 3\Enemy.cpp(41,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Source.cpp
+G:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 3\Quiz 3\Source.cpp(13,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
   Quiz 3.vcxproj -> G:\CSB\Term 8\BASPRG2\BP2_T2_2024-Mauhay_Francis\Quiz\Quiz 3\x64\Debug\Quiz 3.exe

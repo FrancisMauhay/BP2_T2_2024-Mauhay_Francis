@@ -10,6 +10,8 @@ using namespace std;
 
 int main()
 {
+    srand(time(0));
+
     Player* player = nullptr;
     Enemy* enemy = nullptr;
 
@@ -73,16 +75,81 @@ int main()
 
                 cout << endl << "Floor: " << floor << endl;
 
-                // Insert battle functions here
+                if (player->agi >= enemy->agi)
+                {
+                    cout << "Player will attack now..." << endl << endl;
+                    system("pause");
 
-                enemy->hp -= 10;
+                    player->Attack(enemy);
 
-                system("pause");
-                system("CLS");
+                    system("pause");
+
+                    cout << endl << "Enemy will attack now..." << endl << endl;
+
+                    enemy->AttackPlayer(player);
+
+                    system("pause");
+                    system("CLS");
+                }
+                else if( player->agi <= enemy->agi)
+                {
+                    cout << "Enemy will attack now..." << endl << endl;
+                    system("pause");
+
+                    enemy->AttackPlayer(player);
+
+                    cout << "Player will attack now..." << endl << endl;
+
+                    player->Attack(enemy);
+
+                    system("pause");
+                    system("CLS");
+                }
             }
             if (enemy->hp <= 0)
             {
-                enemy = nullptr;
+                if (dynamic_cast<WarriorEnemy*>(enemy))
+                {   
+                    player->hp += 30;
+                    if (player->hp > 100)
+                    {
+                        player->hp = 100;
+                    }
+
+                    player->pow += 3;
+                    player->vit += 3;
+
+                    enemy = nullptr;
+                }
+                else if (dynamic_cast<AssassinEnemy*>(enemy))
+                {
+                    player->hp += 30;
+                    if (player->hp > 100)
+                    {
+                        player->hp = 100;
+                    }
+
+                    player->agi += 3;
+                    player->dex += 3;
+
+                    enemy = nullptr;
+                }
+                else if (dynamic_cast<MageEnemy*>(enemy))
+                {
+                    player->hp += 30;
+                    if (player->hp > 100)
+                    {
+                        player->hp = 100;
+                    }
+
+                    player->pow += 5;
+
+                    enemy = nullptr;
+                }
+                else
+                {
+                    enemy = nullptr;
+                }
             }
         }
     }
@@ -90,7 +157,6 @@ int main()
     cout << "==================GAME OVER====================" << endl;
     cout << "You only reached floor " << floor << endl;
 
-    // Clean up allocated memory
     delete player;
     delete enemy;
 

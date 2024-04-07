@@ -7,7 +7,7 @@
 class WarriorPlayer : public Player {
 public:
     WarriorPlayer(const std::string& _name)
-        : Player(_name, 100, 15, 10, 8, 8) {} 
+        : Player(_name, "Warrior", 100, 15, 10, 8, 8) {}
 
     void DisplayStats() override;
 };
@@ -15,7 +15,7 @@ public:
 class WarriorEnemy : public Enemy {
 public:
     WarriorEnemy(const std::string& _name)
-        : Enemy(_name, 100, 15, 10, 8, 8) {}
+        : Enemy(_name, "Warrior", 100, 15, 10, 8, 8) {}
 
     void DisplayStats() override;
 };

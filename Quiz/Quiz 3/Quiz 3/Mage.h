@@ -7,7 +7,7 @@
 class MagePlayer : public Player {
 public:
     MagePlayer(const std::string& _name)
-        : Player(_name, 100, 10, 8, 8, 15) {}
+        : Player(_name, "Mage", 100, 10, 8, 8, 15) {}
 
     void DisplayStats() override;
 };
@@ -15,7 +15,7 @@ public:
 class MageEnemy : public Enemy {
 public:
     MageEnemy(const std::string& _name)
-        : Enemy(_name, 100, 10, 8, 8, 15) {}
+        : Enemy(_name, "Mage", 100, 10, 8, 8, 15) {}
 
     void DisplayStats() override;
 };

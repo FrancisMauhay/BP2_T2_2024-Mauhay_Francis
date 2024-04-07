@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 void WarriorPlayer::DisplayStats()
 {
 	cout << "Class: Warrior" << endl;
